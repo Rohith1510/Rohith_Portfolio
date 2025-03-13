@@ -51,7 +51,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle>Send Me a Message</CardTitle>
-                <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
+                <CardDescription>Fill out the form below and I&apos;ll get back to you as soon as possible.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -107,7 +107,7 @@ export default function Contact() {
             <Card>
               <CardHeader>
                 <CardTitle>Contact Information</CardTitle>
-                <CardDescription>Here's how you can reach me directly</CardDescription>
+                <CardDescription>Here&apos;s how you can reach me directly</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start space-x-4">

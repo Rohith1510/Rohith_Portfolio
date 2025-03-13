@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="font-bold text-xl">
-          Rohith's Portfolio
+          Rohith&apos;s Portfolio
         </Link>
 
         {/* Desktop Navigation */}

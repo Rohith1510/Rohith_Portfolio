@@ -1,7 +1,4 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
-
+import Image from "next/image";
 export default function About() {
   return (
     <section id="about" className="py-20 bg-background">
@@ -16,24 +13,19 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-              Hey there! I'm Rohith Pranav Bala, a CSE undergraduate with hands-on experience in frontend development, blockchain, and Web3. I’m passionate about building impactful tech solutions that bridge innovation and efficiency.
-
+                Hey there! I&apos;m Rohith Pranav Bala, a CSE undergraduate with hands-on experience in frontend development, blockchain, and Web3. I’m passionate about building impactful tech solutions that bridge innovation and efficiency.
               </p>
               <p>
-              I've actively participated in and been recognized at various tech events, conferences, and competitions, constantly pushing boundaries in the ever-evolving tech space. Always eager to learn, collaborate, and create something extraordinary!
+                I&apos;ve actively participated in and been recognized at various tech events, conferences, and competitions, constantly pushing boundaries in the ever-evolving tech space. Always eager to learn, collaborate, and create something extraordinary!
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or enjoying outdoor activities like Travel and photography.
+                When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects,
+                or enjoying outdoor activities like travel and photography.
               </p>
             </div>
-            {/* <Button className="mt-6" variant="outline">
-              <Download className="mr-2 h-4 w-4" /> Download Resume
-            </Button> */}
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

@@ -43,7 +43,7 @@ export default function Publications() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Publications & Articles</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Technical articles, research papers, and publications I've authored
+            Technical articles, research papers, and publications I&apos;ve authored
           </p>
         </div>
 
